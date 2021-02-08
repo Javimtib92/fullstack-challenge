@@ -1,0 +1,42 @@
+:root {
+  --input-color: #484f61;
+  --input-border: #65738a;
+  --input-background: #fff;
+  --input-placeholder: #222325;
+
+  --input-border-focus: #275EFE;
+}
+
+.App {
+  width: 500px;
+  padding: 24px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: var(--input-color);
+  border: 1px solid var(--input-border);
+  background: var(--input-background);
+  transition: border .3s ease;
+}
+
+.form-field:placeholder {
+  color: var(--input-placeholder);
+}
+
+.form-field:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+}

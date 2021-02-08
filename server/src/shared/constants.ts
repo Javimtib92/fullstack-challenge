@@ -1,0 +1,5 @@
+export const PARAM_MISSING_ERROR = 'One or more of the required parameters was missing.'
+export const FALLS_OUT_OF_THE_MAP = 'Falls out of the map. \u{1F635}'
+export const ORCS_FOUND = 'Orc found, Frodo is dead. \u{1F480}'
+export const RING_DESTROYED = 'Ring is destroyed. \u{1F389}'
+export const NOTHING_FOUND = 'Nothing is found. \u{1F937}'

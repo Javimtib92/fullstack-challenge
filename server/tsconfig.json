@@ -1,0 +1,33 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@types": [
+        "src/types/index.ts"
+      ],
+      "@interfaces": [
+        "src/interfaces/index.ts"
+      ],
+      "@enums": [
+        "src/enums/index.ts"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@server": [
+        "src/Server"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "spec/**/*.ts"
+  ],
+}

@@ -1,0 +1,36 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "baseUrl": ".",
+       "paths": {
+          "@interfaces": [
+              "../node_modules/server/src/interfaces/index.ts"
+          ],
+          "@types": [
+            "../node_modules/server/src/types/index.ts"
+          ],
+          "@components": [
+              "../node_modules/client/src/components/index.ts"
+          ],
+        },
+    },
+    "include": [
+      "src"
+    ]
+  }
+  
