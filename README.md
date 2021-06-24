@@ -1,4 +1,4 @@
-# Biogen Dev Test
+# Dev Test
 
 Please read this docs in order to setup and run the application.
 
